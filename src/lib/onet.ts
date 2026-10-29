@@ -78,3 +78,19 @@ export async function getTargetRequirements(soc: string): Promise<TargetRequirem
     techSkills: tech.data as TechSkill[],
   };
 }
+
+export type LevelAnchor = { element_id: string; anchor_value: number; anchor_description: string };
+
+// O*NET's own example tasks for points on the 0-7 level scale, keyed by skill element_id.
+export async function getLevelAnchors(version: string): Promise<Record<string, LevelAnchor[]>> {
+  const supabase = await createClient();
+  const res = await supabase
+    .from("onet_level_anchors")
+    .select("element_id, anchor_value, anchor_description")
+    .eq("onet_version", version)
+    .order("anchor_value");
+  if (res.error) throw new Error(`O*NET level anchors: ${res.error.message}`);
+  const out: Record<string, LevelAnchor[]> = {};
+  for (const a of res.data as LevelAnchor[]) (out[a.element_id] ??= []).push(a);
+  return out;
+}

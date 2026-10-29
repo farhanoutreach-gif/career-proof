@@ -1,0 +1,534 @@
+{
+  "onet_version": "31.0",
+  "source_file": {
+    "url": "https://www.onetcenter.org/dl_files/database/db_31_0_csv/level_scale_anchors.csv",
+    "sha256": "7205657fb54280827d6902b94e06f95ef0b9ed10f1f9f8ed3f02779d4c7a9573"
+  },
+  "anchors": [
+    {
+      "element_id": "2.A.1.a",
+      "anchor_value": 2,
+      "anchor_description": "Read step-by-step instructions for completing a form"
+    },
+    {
+      "element_id": "2.A.1.a",
+      "anchor_value": 4,
+      "anchor_description": "Understand an email from management describing new personnel policies"
+    },
+    {
+      "element_id": "2.A.1.a",
+      "anchor_value": 6,
+      "anchor_description": "Read a scientific journal article describing surgical procedures"
+    },
+    {
+      "element_id": "2.A.1.b",
+      "anchor_value": 2,
+      "anchor_description": "Take a customer's order"
+    },
+    {
+      "element_id": "2.A.1.b",
+      "anchor_value": 4,
+      "anchor_description": "Answer inquiries regarding credit references"
+    },
+    {
+      "element_id": "2.A.1.b",
+      "anchor_value": 6,
+      "anchor_description": "Serve as a judge in a complex legal disagreement"
+    },
+    {
+      "element_id": "2.A.1.c",
+      "anchor_value": 2,
+      "anchor_description": "Write down a guest's order at a restaurant"
+    },
+    {
+      "element_id": "2.A.1.c",
+      "anchor_value": 4,
+      "anchor_description": "Write an email to staff outlining new directives"
+    },
+    {
+      "element_id": "2.A.1.c",
+      "anchor_value": 6,
+      "anchor_description": "Write a novel for publication"
+    },
+    {
+      "element_id": "2.A.1.d",
+      "anchor_value": 2,
+      "anchor_description": "Greet tourists and explain tourist attractions"
+    },
+    {
+      "element_id": "2.A.1.d",
+      "anchor_value": 4,
+      "anchor_description": "Interview applicants to obtain personal and work history"
+    },
+    {
+      "element_id": "2.A.1.d",
+      "anchor_value": 6,
+      "anchor_description": "Argue a legal case before the Supreme Court"
+    },
+    {
+      "element_id": "2.A.1.e",
+      "anchor_value": 2,
+      "anchor_description": "Count the amount of change to be given to a customer"
+    },
+    {
+      "element_id": "2.A.1.e",
+      "anchor_value": 4,
+      "anchor_description": "Calculate the square footage of a new home under construction"
+    },
+    {
+      "element_id": "2.A.1.e",
+      "anchor_value": 6,
+      "anchor_description": "Develop a mathematical model to simulate and resolve an engineering problem"
+    },
+    {
+      "element_id": "2.A.1.f",
+      "anchor_value": 2,
+      "anchor_description": "Conduct standard tests to determine soil quality"
+    },
+    {
+      "element_id": "2.A.1.f",
+      "anchor_value": 4,
+      "anchor_description": "Conduct product tests to ensure safety standards are met"
+    },
+    {
+      "element_id": "2.A.1.f",
+      "anchor_value": 6,
+      "anchor_description": "Analyze aerodynamic systems to determine the practicality of a design"
+    },
+    {
+      "element_id": "2.A.2.a",
+      "anchor_value": 2,
+      "anchor_description": "Determine whether a subordinate has a good excuse for being late"
+    },
+    {
+      "element_id": "2.A.2.a",
+      "anchor_value": 4,
+      "anchor_description": "Evaluate customer complaints and determine appropriate responses"
+    },
+    {
+      "element_id": "2.A.2.a",
+      "anchor_value": 6,
+      "anchor_description": "Write legal brief challenging a federal law"
+    },
+    {
+      "element_id": "2.A.2.b",
+      "anchor_value": 2,
+      "anchor_description": "Think about the implications of a news article for job opportunities"
+    },
+    {
+      "element_id": "2.A.2.b",
+      "anchor_value": 4,
+      "anchor_description": "Determine the impact of new menu changes on a restaurant's purchasing requirements"
+    },
+    {
+      "element_id": "2.A.2.b",
+      "anchor_value": 6,
+      "anchor_description": "Identify the implications of a new scientific theory for product design"
+    },
+    {
+      "element_id": "2.A.2.c",
+      "anchor_value": 2,
+      "anchor_description": "Learn a different method of completing a task from a coworker"
+    },
+    {
+      "element_id": "2.A.2.c",
+      "anchor_value": 4,
+      "anchor_description": "Identify an alternative approach to help trainees who are having difficulties"
+    },
+    {
+      "element_id": "2.A.2.c",
+      "anchor_value": 6,
+      "anchor_description": "Apply principles of educational psychology to develop new teaching methods"
+    },
+    {
+      "element_id": "2.A.2.d",
+      "anchor_value": 2,
+      "anchor_description": "Proofread and correct a letter"
+    },
+    {
+      "element_id": "2.A.2.d",
+      "anchor_value": 4,
+      "anchor_description": "Monitor a meeting and revise the agenda to ensure important topics are discussed"
+    },
+    {
+      "element_id": "2.A.2.d",
+      "anchor_value": 6,
+      "anchor_description": "Review corporate productivity and develop a plan to increase it"
+    },
+    {
+      "element_id": "2.B.1.a",
+      "anchor_value": 2,
+      "anchor_description": "Notice that customers are angry because they have been waiting too long"
+    },
+    {
+      "element_id": "2.B.1.a",
+      "anchor_value": 4,
+      "anchor_description": "Be aware of how a coworker's promotion will affect a work group"
+    },
+    {
+      "element_id": "2.B.1.a",
+      "anchor_value": 6,
+      "anchor_description": "Counsel patients who are depressed during a crisis period"
+    },
+    {
+      "element_id": "2.B.1.b",
+      "anchor_value": 2,
+      "anchor_description": "Schedule appointments for a medical clinic"
+    },
+    {
+      "element_id": "2.B.1.b",
+      "anchor_value": 4,
+      "anchor_description": "Work with others to put a new roof on a house"
+    },
+    {
+      "element_id": "2.B.1.b",
+      "anchor_value": 6,
+      "anchor_description": "Direct a project requiring coordination between multiple subcontractors"
+    },
+    {
+      "element_id": "2.B.1.c",
+      "anchor_value": 2,
+      "anchor_description": "Solicit donations for a charity"
+    },
+    {
+      "element_id": "2.B.1.c",
+      "anchor_value": 4,
+      "anchor_description": "Convince a supervisor to purchase new office equipment"
+    },
+    {
+      "element_id": "2.B.1.c",
+      "anchor_value": 6,
+      "anchor_description": "Change the opinion of the jury in a complex legal case"
+    },
+    {
+      "element_id": "2.B.1.d",
+      "anchor_value": 2,
+      "anchor_description": "Present justification to a manager for altering a work schedule"
+    },
+    {
+      "element_id": "2.B.1.d",
+      "anchor_value": 4,
+      "anchor_description": "Contract with a wholesaler to sell items at a given cost"
+    },
+    {
+      "element_id": "2.B.1.d",
+      "anchor_value": 6,
+      "anchor_description": "Work as an ambassador in negotiating a new treaty"
+    },
+    {
+      "element_id": "2.B.1.e",
+      "anchor_value": 2,
+      "anchor_description": "Instruct a new employee in the use of a timekeeping system"
+    },
+    {
+      "element_id": "2.B.1.e",
+      "anchor_value": 4,
+      "anchor_description": "Instruct a coworker in how to operate a software program"
+    },
+    {
+      "element_id": "2.B.1.e",
+      "anchor_value": 6,
+      "anchor_description": "Demonstrate a surgical procedure to interns in a teaching hospital"
+    },
+    {
+      "element_id": "2.B.1.f",
+      "anchor_value": 2,
+      "anchor_description": "Ask customers if they would like a cup of coffee"
+    },
+    {
+      "element_id": "2.B.1.f",
+      "anchor_value": 4,
+      "anchor_description": "Make flight reservations for customers using an online booking site"
+    },
+    {
+      "element_id": "2.B.1.f",
+      "anchor_value": 6,
+      "anchor_description": "Direct relief agency operations in a disaster area"
+    },
+    {
+      "element_id": "2.B.2.i",
+      "anchor_value": 2,
+      "anchor_description": "Lay out tools to complete a job"
+    },
+    {
+      "element_id": "2.B.2.i",
+      "anchor_value": 4,
+      "anchor_description": "Redesign a floor layout to take advantage of new manufacturing techniques"
+    },
+    {
+      "element_id": "2.B.2.i",
+      "anchor_value": 6,
+      "anchor_description": "Develop a plan to provide emergency relief for a major metropolitan area"
+    },
+    {
+      "element_id": "2.B.3.a",
+      "anchor_value": 2,
+      "anchor_description": "Select a printer for an office"
+    },
+    {
+      "element_id": "2.B.3.a",
+      "anchor_value": 4,
+      "anchor_description": "Suggest changes in software to make a system more user friendly"
+    },
+    {
+      "element_id": "2.B.3.a",
+      "anchor_value": 6,
+      "anchor_description": "Identify the control system needed for a new process production plant"
+    },
+    {
+      "element_id": "2.B.3.b",
+      "anchor_value": 2,
+      "anchor_description": "Adjust exercise equipment for use by a customer"
+    },
+    {
+      "element_id": "2.B.3.b",
+      "anchor_value": 4,
+      "anchor_description": "Redesign the handle on a hand tool for easier gripping"
+    },
+    {
+      "element_id": "2.B.3.b",
+      "anchor_value": 6,
+      "anchor_description": "Create new technology for producing industrial diamonds"
+    },
+    {
+      "element_id": "2.B.3.c",
+      "anchor_value": 2,
+      "anchor_description": "Select a tool to adjust a loose part on a bicycle"
+    },
+    {
+      "element_id": "2.B.3.c",
+      "anchor_value": 4,
+      "anchor_description": "Choose a software application to complete a work assignment"
+    },
+    {
+      "element_id": "2.B.3.c",
+      "anchor_value": 6,
+      "anchor_description": "Identify the equipment needed to produce a new product line"
+    },
+    {
+      "element_id": "2.B.3.d",
+      "anchor_value": 2,
+      "anchor_description": "Install a new air filter in an air conditioner"
+    },
+    {
+      "element_id": "2.B.3.d",
+      "anchor_value": 4,
+      "anchor_description": "Install a speaker system in a car"
+    },
+    {
+      "element_id": "2.B.3.d",
+      "anchor_value": 6,
+      "anchor_description": "Install a custom-made production machine for a new product"
+    },
+    {
+      "element_id": "2.B.3.e",
+      "anchor_value": 2,
+      "anchor_description": "Write a program to sort objects in a database"
+    },
+    {
+      "element_id": "2.B.3.e",
+      "anchor_value": 4,
+      "anchor_description": "Write a statistical analysis program to analyze demographic data"
+    },
+    {
+      "element_id": "2.B.3.e",
+      "anchor_value": 6,
+      "anchor_description": "Write programs to analyze geological data for existence of mineral deposits"
+    },
+    {
+      "element_id": "2.B.3.g",
+      "anchor_value": 2,
+      "anchor_description": "Monitor completion times while running a computer program"
+    },
+    {
+      "element_id": "2.B.3.g",
+      "anchor_value": 4,
+      "anchor_description": "Monitor machine functions on an automated production line"
+    },
+    {
+      "element_id": "2.B.3.g",
+      "anchor_value": 6,
+      "anchor_description": "Monitor feedback control in a processing facility to maintain production flow"
+    },
+    {
+      "element_id": "2.B.3.h",
+      "anchor_value": 2,
+      "anchor_description": "Navigate the settings on an office printer to print on both sides of the paper"
+    },
+    {
+      "element_id": "2.B.3.h",
+      "anchor_value": 4,
+      "anchor_description": "Adjust the speed of assembly line equipment based on the product being assembled"
+    },
+    {
+      "element_id": "2.B.3.h",
+      "anchor_value": 6,
+      "anchor_description": "Control aircraft approach and landing at a large airport during a busy period"
+    },
+    {
+      "element_id": "2.B.3.j",
+      "anchor_value": 2,
+      "anchor_description": "Add oil to an engine as indicated by a warning light"
+    },
+    {
+      "element_id": "2.B.3.j",
+      "anchor_value": 4,
+      "anchor_description": "Clean moving parts in production machinery"
+    },
+    {
+      "element_id": "2.B.3.j",
+      "anchor_value": 6,
+      "anchor_description": "Conduct maintenance checks on an aircraft"
+    },
+    {
+      "element_id": "2.B.3.k",
+      "anchor_value": 2,
+      "anchor_description": "Identify the source of a leak by looking under a machine"
+    },
+    {
+      "element_id": "2.B.3.k",
+      "anchor_value": 4,
+      "anchor_description": "Identify the circuit causing an electrical system to fail"
+    },
+    {
+      "element_id": "2.B.3.k",
+      "anchor_value": 6,
+      "anchor_description": "Direct the debugging of code for a new operating system"
+    },
+    {
+      "element_id": "2.B.3.l",
+      "anchor_value": 2,
+      "anchor_description": "Tighten a screw to get a door to close properly"
+    },
+    {
+      "element_id": "2.B.3.l",
+      "anchor_value": 4,
+      "anchor_description": "Replace a faulty hydraulic valve"
+    },
+    {
+      "element_id": "2.B.3.l",
+      "anchor_value": 6,
+      "anchor_description": "Repair structural damage after an earthquake"
+    },
+    {
+      "element_id": "2.B.3.m",
+      "anchor_value": 2,
+      "anchor_description": "Inspect a draft email for errors (e.g., grammar, punctuation)"
+    },
+    {
+      "element_id": "2.B.3.m",
+      "anchor_value": 4,
+      "anchor_description": "Assess new parts for precision and accuracy to specifications"
+    },
+    {
+      "element_id": "2.B.3.m",
+      "anchor_value": 6,
+      "anchor_description": "Develop procedures to test a prototype of a new computer system"
+    },
+    {
+      "element_id": "2.B.4.e",
+      "anchor_value": 2,
+      "anchor_description": "Decide how scheduling a break will affect work flow"
+    },
+    {
+      "element_id": "2.B.4.e",
+      "anchor_value": 4,
+      "anchor_description": "Evaluate a loan application for degree of risk"
+    },
+    {
+      "element_id": "2.B.4.e",
+      "anchor_value": 6,
+      "anchor_description": "Decide whether a manufacturing company should invest in new robotics technology"
+    },
+    {
+      "element_id": "2.B.4.g",
+      "anchor_value": 2,
+      "anchor_description": "Determine how loss of a team member will affect the completion of a job"
+    },
+    {
+      "element_id": "2.B.4.g",
+      "anchor_value": 4,
+      "anchor_description": "Determine how a new piece of equipment will affect production rates"
+    },
+    {
+      "element_id": "2.B.4.g",
+      "anchor_value": 6,
+      "anchor_description": "Identify how changes in tax laws affect locations of manufacturing operations"
+    },
+    {
+      "element_id": "2.B.4.h",
+      "anchor_value": 2,
+      "anchor_description": "Determine why estimates for the time to complete a task are overly optimistic"
+    },
+    {
+      "element_id": "2.B.4.h",
+      "anchor_value": 4,
+      "anchor_description": "Identify the reasons why a client might be unhappy with a product"
+    },
+    {
+      "element_id": "2.B.4.h",
+      "anchor_value": 6,
+      "anchor_description": "Evaluate the long-term performance of a new computer system"
+    },
+    {
+      "element_id": "2.B.5.a",
+      "anchor_value": 2,
+      "anchor_description": "Keep a monthly calendar of appointments"
+    },
+    {
+      "element_id": "2.B.5.a",
+      "anchor_value": 4,
+      "anchor_description": "Allocate the time of subordinates to projects for the coming week"
+    },
+    {
+      "element_id": "2.B.5.a",
+      "anchor_value": 6,
+      "anchor_description": "Allocate the time of scientists to multiple research projects"
+    },
+    {
+      "element_id": "2.B.5.b",
+      "anchor_value": 2,
+      "anchor_description": "Use available funds to buy office supplies and record the amount of the purchase"
+    },
+    {
+      "element_id": "2.B.5.b",
+      "anchor_value": 4,
+      "anchor_description": "Prepare and manage a budget for a short-term project"
+    },
+    {
+      "element_id": "2.B.5.b",
+      "anchor_value": 6,
+      "anchor_description": "Develop, monitor, and adjust annual budgets for a large corporation"
+    },
+    {
+      "element_id": "2.B.5.c",
+      "anchor_value": 2,
+      "anchor_description": "Reserve a room for a management meeting"
+    },
+    {
+      "element_id": "2.B.5.c",
+      "anchor_value": 4,
+      "anchor_description": "Evaluate an annual uniform service contract for delivery drivers"
+    },
+    {
+      "element_id": "2.B.5.c",
+      "anchor_value": 6,
+      "anchor_description": "Determine and monitor the computer system needs of a large corporation"
+    },
+    {
+      "element_id": "2.B.5.d",
+      "anchor_value": 2,
+      "anchor_description": "Encourage a coworker who is having difficulty finishing a project"
+    },
+    {
+      "element_id": "2.B.5.d",
+      "anchor_value": 4,
+      "anchor_description": "Direct the activities of a road repair crew with minimal disruption of traffic flow"
+    },
+    {
+      "element_id": "2.B.5.d",
+      "anchor_value": 6,
+      "anchor_description": "Manage recruitment and training programs for a high-performance company"
+    }
+  ]
+}

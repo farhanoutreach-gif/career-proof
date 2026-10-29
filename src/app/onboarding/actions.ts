@@ -25,5 +25,20 @@ export async function setTargetCareer() {
         .insert({ target_career_id: TARGET_SOC, source: "manual" });
   if (res.error) throw new Error(res.error.message);
 
-  redirect("/profile");
+  redirect("/skills");
+}
+
+// Records a request for a career we do not support yet. The v1 target stays fixed.
+// Reachable by direct POST, so auth and length are checked here; RLS scopes rows to the caller.
+export async function requestCareer(formData: FormData) {
+  const supabase = await createClient();
+  const { data: auth } = await supabase.auth.getUser();
+  if (!auth.user) redirect("/login");
+
+  const text = String(formData.get("career") ?? "").trim();
+  if (text.length < 1 || text.length > 200) redirect("/onboarding?request=invalid");
+
+  const res = await supabase.from("career_requests").insert({ career_text: text });
+  if (res.error) throw new Error(res.error.message);
+  redirect("/onboarding?request=saved");
 }
