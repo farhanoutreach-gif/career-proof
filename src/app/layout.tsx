@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { APP_NAME, APP_TAGLINE } from "@/config/site";
 
 export const metadata: Metadata = {
-  title: "Career Proof",
-  description: "Prove your skills with evidence, not just claims.",
+  title: APP_NAME,
+  description: APP_TAGLINE,
 };
 
 export default function RootLayout({
