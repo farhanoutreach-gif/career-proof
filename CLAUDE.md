@@ -15,8 +15,8 @@ Task 1 is already done (live at https://career-proof-two.vercel.app).
 
 **Sprint adjustments:**
 - **Skill entry:** skills come from a simple onboarding form (skill + self-rated level 0–100), not the resume builder. Every row still starts as `self_reported`.
-- **Target career:** fixed to Financial Analyst (O*NET SOC 13-2051.00) for v1. Task 7 = record it on `career_profiles` during onboarding; no multi-career picker.
-- **O*NET data:** use the free O*NET database download (not Web Services, which needs a registered key). Import Financial Analyst skill/importance/level values once into a seeded table or a versioned JSON file in the repo. Record the O*NET database version, show "Source: O*NET <version>" wherever requirements appear, and include O*NET's required CC BY 4.0 attribution. Never hand-type, estimate, or generate these values.
+- **Target career:** fixed to Business Intelligence Analysts (O*NET SOC 15-2051.01) for v1 (changed from Financial Analyst 13-2051.00: O*NET 31.0 has no skill ratings for that SOC, and 15-2051.01 has complete 2.A+2.B ratings and lists SQL). Task 7 = record it on `career_profiles` during onboarding; no multi-career picker.
+- **O*NET data:** use the free O*NET database download (not Web Services, which needs a registered key). Import the target career's skill/importance/level values once into a seeded table or a versioned JSON file in the repo. Record the O*NET database version, show "Source: O*NET <version>" wherever requirements appear, and include O*NET's required CC BY 4.0 attribution. Never hand-type, estimate, or generate these values.
 - **No LLM API in this sprint.** If a task seems to need one, stop and flag it.
 - **SQL challenge:** runs server-side in an embedded engine (SQLite or PGlite) with fixed seed data. Grading compares result sets deterministically (order-insensitive unless the task requires ORDER BY). User SQL never touches the Supabase database.
 - **Score in v1:** verified evidence only (`ai_assessed` does not exist yet), weighted by O*NET importance across the target career's skills.
@@ -158,7 +158,7 @@ This is the single path that must work, start to finish, before any feature is c
 
 1. User builds or uploads a resume
 2. If uploaded: sees a confirm/edit screen before anything saves (Principle #2)
-3. Chooses a target career (default for all testing/demo data: **Financial Analyst**, O*NET SOC 13-2051.00)
+3. Chooses a target career (default for all testing/demo data: **Business Intelligence Analysts**, O*NET SOC 15-2051.01)
 4. Sees skill gaps, sourced from O*NET, each labeled with its source
 5. Claims a skill (e.g., SQL) — creates a `user_skills` row with `evidence_type = 'self_reported'`
 6. Completes the SQL challenge
@@ -188,11 +188,11 @@ Work through these one at a time. Each has a definition of done — don't move t
 5. **Resume builder — upload path.** PDF/DOCX text extraction → LLM structured extraction → confirm/edit screen → only then save to `career_profiles`.
    *Done when:* uploading a deliberately messy resume never silently saves a wrong field — the user always sees and can correct it first.
 
-6. **O*NET integration for one target career.** Fetch task/skill requirements for Financial Analyst (SOC 13-2051.00) via O*NET Web Services.
+6. **O*NET integration for one target career.** Fetch task/skill requirements for the v1 target (SOC 15-2051.01, see Section 0).
    *Done when:* skill requirements for that one career are stored/cached and queryable.
 
 7. **Target career selection screen.**
-   *Done when:* a user can select Financial Analyst and it's recorded on their `career_profiles` row.
+   *Done when:* a user can select the v1 target career and it's recorded on their `career_profiles` row.
 
 8. **Skill-gap calculation.** Required level minus claimed level, per skill, weighted by O*NET importance.
    *Done when:* the gap list for a test profile matches a hand-calculated expected result.

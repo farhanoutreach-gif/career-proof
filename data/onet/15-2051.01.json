@@ -1,0 +1,1825 @@
+{
+  "onet_version": "31.0",
+  "source_base_url": "https://www.onetcenter.org/dl_files/database/db_31_0_csv",
+  "source_files": {
+    "occupation_data.csv": {
+      "url": "https://www.onetcenter.org/dl_files/database/db_31_0_csv/occupation_data.csv",
+      "sha256": "a09eae1d6609686e44e05b7290993a1c8b523d8ca224bc0eedc194c855c3ee02"
+    },
+    "content_model_reference.csv": {
+      "url": "https://www.onetcenter.org/dl_files/database/db_31_0_csv/content_model_reference.csv",
+      "sha256": "370033744006dbd5df048431d42a402f6741a00a229b6d0f4e4f4249b6399c04"
+    },
+    "scales_reference.csv": {
+      "url": "https://www.onetcenter.org/dl_files/database/db_31_0_csv/scales_reference.csv",
+      "sha256": "bcba23858ce21ecaacbde303a8993e35d46724b4afb8c9ec2b10e04f42adcfc9"
+    },
+    "essential_skills.csv": {
+      "url": "https://www.onetcenter.org/dl_files/database/db_31_0_csv/essential_skills.csv",
+      "sha256": "68c4d31d8c55077238395dca40cc4e6d32e6a608b5474bb8264b1f98ae415bd7"
+    },
+    "transferable_skills.csv": {
+      "url": "https://www.onetcenter.org/dl_files/database/db_31_0_csv/transferable_skills.csv",
+      "sha256": "ce2152c9e35ef40135e6d97baeda22c9f13ece58ab1f312c350e3e77dd56fc2e"
+    },
+    "software_skills.csv": {
+      "url": "https://www.onetcenter.org/dl_files/database/db_31_0_csv/software_skills.csv",
+      "sha256": "6aabb96b464288db849580e6510530efff3f80e25dde2bb23f1fc36bb526b016"
+    }
+  },
+  "license": "CC BY 4.0",
+  "attribution": "This page includes information from the O*NET 31.0 Database by the U.S. Department of Labor, Employment and Training Administration (USDOL/ETA). Used under the CC BY 4.0 license. O*NET® is a trademark of USDOL/ETA.",
+  "modified_notice": "Skillmark has modified all or some of this information. USDOL/ETA has not approved, endorsed, or tested these modifications.",
+  "scales": {
+    "IM": {
+      "name": "Importance",
+      "min": 1,
+      "max": 5
+    },
+    "LV": {
+      "name": "Level",
+      "min": 0,
+      "max": 7
+    }
+  },
+  "occupation": {
+    "soc_code": "15-2051.01",
+    "title": "Business Intelligence Analysts",
+    "description": "Produce financial and market intelligence by querying data repositories and generating periodic reports. Devise methods for identifying data patterns and trends in available information sources."
+  },
+  "skills": [
+    {
+      "element_id": "2.A.1.a",
+      "skill_name": "Reading Comprehension",
+      "importance": 4,
+      "level": 4.25,
+      "importance_suppressed": false,
+      "level_suppressed": false,
+      "not_relevant": false,
+      "data_date": "08/2024"
+    },
+    {
+      "element_id": "2.A.1.b",
+      "skill_name": "Active Listening",
+      "importance": 3.88,
+      "level": 4,
+      "importance_suppressed": false,
+      "level_suppressed": false,
+      "not_relevant": false,
+      "data_date": "08/2024"
+    },
+    {
+      "element_id": "2.A.1.c",
+      "skill_name": "Writing",
+      "importance": 3.75,
+      "level": 4,
+      "importance_suppressed": false,
+      "level_suppressed": false,
+      "not_relevant": false,
+      "data_date": "08/2024"
+    },
+    {
+      "element_id": "2.A.1.d",
+      "skill_name": "Speaking",
+      "importance": 3.88,
+      "level": 4,
+      "importance_suppressed": false,
+      "level_suppressed": false,
+      "not_relevant": false,
+      "data_date": "08/2024"
+    },
+    {
+      "element_id": "2.A.1.e",
+      "skill_name": "Mathematics",
+      "importance": 3.5,
+      "level": 3.88,
+      "importance_suppressed": false,
+      "level_suppressed": false,
+      "not_relevant": false,
+      "data_date": "08/2024"
+    },
+    {
+      "element_id": "2.A.1.f",
+      "skill_name": "Science",
+      "importance": 1.62,
+      "level": 0.75,
+      "importance_suppressed": false,
+      "level_suppressed": false,
+      "not_relevant": false,
+      "data_date": "08/2024"
+    },
+    {
+      "element_id": "2.A.2.a",
+      "skill_name": "Critical Thinking",
+      "importance": 3.88,
+      "level": 4.25,
+      "importance_suppressed": false,
+      "level_suppressed": false,
+      "not_relevant": false,
+      "data_date": "08/2024"
+    },
+    {
+      "element_id": "2.A.2.b",
+      "skill_name": "Active Learning",
+      "importance": 3.88,
+      "level": 4.12,
+      "importance_suppressed": false,
+      "level_suppressed": false,
+      "not_relevant": false,
+      "data_date": "08/2024"
+    },
+    {
+      "element_id": "2.A.2.c",
+      "skill_name": "Learning Strategies",
+      "importance": 3,
+      "level": 3,
+      "importance_suppressed": false,
+      "level_suppressed": false,
+      "not_relevant": false,
+      "data_date": "08/2024"
+    },
+    {
+      "element_id": "2.A.2.d",
+      "skill_name": "Monitoring",
+      "importance": 3.12,
+      "level": 3.25,
+      "importance_suppressed": false,
+      "level_suppressed": false,
+      "not_relevant": false,
+      "data_date": "08/2024"
+    },
+    {
+      "element_id": "2.B.1.a",
+      "skill_name": "Social Perceptiveness",
+      "importance": 2.88,
+      "level": 2.88,
+      "importance_suppressed": false,
+      "level_suppressed": false,
+      "not_relevant": false,
+      "data_date": "08/2024"
+    },
+    {
+      "element_id": "2.B.1.b",
+      "skill_name": "Coordination",
+      "importance": 3,
+      "level": 3,
+      "importance_suppressed": false,
+      "level_suppressed": false,
+      "not_relevant": false,
+      "data_date": "08/2024"
+    },
+    {
+      "element_id": "2.B.1.c",
+      "skill_name": "Persuasion",
+      "importance": 2.88,
+      "level": 3,
+      "importance_suppressed": false,
+      "level_suppressed": false,
+      "not_relevant": false,
+      "data_date": "08/2024"
+    },
+    {
+      "element_id": "2.B.1.d",
+      "skill_name": "Negotiation",
+      "importance": 2.5,
+      "level": 2.88,
+      "importance_suppressed": false,
+      "level_suppressed": false,
+      "not_relevant": false,
+      "data_date": "08/2024"
+    },
+    {
+      "element_id": "2.B.1.e",
+      "skill_name": "Instructing",
+      "importance": 3,
+      "level": 3,
+      "importance_suppressed": false,
+      "level_suppressed": false,
+      "not_relevant": false,
+      "data_date": "08/2024"
+    },
+    {
+      "element_id": "2.B.1.f",
+      "skill_name": "Service Orientation",
+      "importance": 2.88,
+      "level": 2.88,
+      "importance_suppressed": false,
+      "level_suppressed": false,
+      "not_relevant": false,
+      "data_date": "08/2024"
+    },
+    {
+      "element_id": "2.B.2.i",
+      "skill_name": "Complex Problem Solving",
+      "importance": 3.38,
+      "level": 3.75,
+      "importance_suppressed": false,
+      "level_suppressed": false,
+      "not_relevant": false,
+      "data_date": "08/2024"
+    },
+    {
+      "element_id": "2.B.3.a",
+      "skill_name": "Operations Analysis",
+      "importance": 1.88,
+      "level": 1.62,
+      "importance_suppressed": false,
+      "level_suppressed": false,
+      "not_relevant": false,
+      "data_date": "08/2024"
+    },
+    {
+      "element_id": "2.B.3.b",
+      "skill_name": "Technology Design",
+      "importance": 1.62,
+      "level": 0.88,
+      "importance_suppressed": false,
+      "level_suppressed": false,
+      "not_relevant": false,
+      "data_date": "08/2024"
+    },
+    {
+      "element_id": "2.B.3.c",
+      "skill_name": "Equipment Selection",
+      "importance": 1,
+      "level": 0,
+      "importance_suppressed": false,
+      "level_suppressed": false,
+      "not_relevant": true,
+      "data_date": "08/2024"
+    },
+    {
+      "element_id": "2.B.3.d",
+      "skill_name": "Installation",
+      "importance": 1,
+      "level": 0,
+      "importance_suppressed": false,
+      "level_suppressed": false,
+      "not_relevant": true,
+      "data_date": "08/2024"
+    },
+    {
+      "element_id": "2.B.3.e",
+      "skill_name": "Programming",
+      "importance": 2.5,
+      "level": 2.5,
+      "importance_suppressed": false,
+      "level_suppressed": false,
+      "not_relevant": false,
+      "data_date": "08/2024"
+    },
+    {
+      "element_id": "2.B.3.g",
+      "skill_name": "Operations Monitoring",
+      "importance": 1.75,
+      "level": 1.12,
+      "importance_suppressed": false,
+      "level_suppressed": false,
+      "not_relevant": false,
+      "data_date": "08/2024"
+    },
+    {
+      "element_id": "2.B.3.h",
+      "skill_name": "Operation and Control",
+      "importance": 1.38,
+      "level": 0.38,
+      "importance_suppressed": false,
+      "level_suppressed": false,
+      "not_relevant": false,
+      "data_date": "08/2024"
+    },
+    {
+      "element_id": "2.B.3.j",
+      "skill_name": "Equipment Maintenance",
+      "importance": 1,
+      "level": 0,
+      "importance_suppressed": false,
+      "level_suppressed": false,
+      "not_relevant": true,
+      "data_date": "08/2024"
+    },
+    {
+      "element_id": "2.B.3.k",
+      "skill_name": "Troubleshooting",
+      "importance": 1,
+      "level": 0,
+      "importance_suppressed": false,
+      "level_suppressed": false,
+      "not_relevant": true,
+      "data_date": "08/2024"
+    },
+    {
+      "element_id": "2.B.3.l",
+      "skill_name": "Repairing",
+      "importance": 1,
+      "level": 0,
+      "importance_suppressed": false,
+      "level_suppressed": false,
+      "not_relevant": true,
+      "data_date": "08/2024"
+    },
+    {
+      "element_id": "2.B.3.m",
+      "skill_name": "Quality Control Analysis",
+      "importance": 2,
+      "level": 1.5,
+      "importance_suppressed": false,
+      "level_suppressed": false,
+      "not_relevant": false,
+      "data_date": "08/2024"
+    },
+    {
+      "element_id": "2.B.4.e",
+      "skill_name": "Judgment and Decision Making",
+      "importance": 3.62,
+      "level": 4,
+      "importance_suppressed": false,
+      "level_suppressed": false,
+      "not_relevant": false,
+      "data_date": "08/2024"
+    },
+    {
+      "element_id": "2.B.4.g",
+      "skill_name": "Systems Analysis",
+      "importance": 3.12,
+      "level": 3.75,
+      "importance_suppressed": false,
+      "level_suppressed": false,
+      "not_relevant": false,
+      "data_date": "08/2024"
+    },
+    {
+      "element_id": "2.B.4.h",
+      "skill_name": "Systems Evaluation",
+      "importance": 3.12,
+      "level": 3.75,
+      "importance_suppressed": false,
+      "level_suppressed": false,
+      "not_relevant": false,
+      "data_date": "08/2024"
+    },
+    {
+      "element_id": "2.B.5.a",
+      "skill_name": "Time Management",
+      "importance": 3.12,
+      "level": 3,
+      "importance_suppressed": false,
+      "level_suppressed": false,
+      "not_relevant": false,
+      "data_date": "08/2024"
+    },
+    {
+      "element_id": "2.B.5.b",
+      "skill_name": "Management of Financial Resources",
+      "importance": 1.88,
+      "level": 1.75,
+      "importance_suppressed": false,
+      "level_suppressed": false,
+      "not_relevant": false,
+      "data_date": "08/2024"
+    },
+    {
+      "element_id": "2.B.5.c",
+      "skill_name": "Management of Material Resources",
+      "importance": 1.75,
+      "level": 1.25,
+      "importance_suppressed": false,
+      "level_suppressed": false,
+      "not_relevant": false,
+      "data_date": "08/2024"
+    },
+    {
+      "element_id": "2.B.5.d",
+      "skill_name": "Management of Personnel Resources",
+      "importance": 2.12,
+      "level": 2,
+      "importance_suppressed": false,
+      "level_suppressed": false,
+      "not_relevant": false,
+      "data_date": "08/2024"
+    }
+  ],
+  "tech_skills": [
+    {
+      "example_name": "Actuate Eclipse BIRT",
+      "category_element_id": "2.E.6.e",
+      "category_name": "Data base reporting software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Adobe Acrobat",
+      "category_element_id": "2.E.5.b",
+      "category_name": "Document management software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Adobe ActionScript",
+      "category_element_id": "2.E.7.b",
+      "category_name": "Development environment software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Adobe Dreamweaver",
+      "category_element_id": "2.E.4.g",
+      "category_name": "Web page creation and editing software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Advanced business application programming ABAP",
+      "category_element_id": "2.E.7.e",
+      "category_name": "Object or component oriented development software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Airtable",
+      "category_element_id": "2.E.6.f",
+      "category_name": "Data base user interface and query software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "AJAX",
+      "category_element_id": "2.E.7.h",
+      "category_name": "Web platform development software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Alteryx software",
+      "category_element_id": "2.E.6.m",
+      "category_name": "Business intelligence and data analysis software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Amazon DynamoDB",
+      "category_element_id": "2.E.6.d",
+      "category_name": "Data base management system software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Amazon Elastic Compute Cloud EC2",
+      "category_element_id": "2.E.6.f",
+      "category_name": "Data base user interface and query software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Amazon Redshift",
+      "category_element_id": "2.E.6.f",
+      "category_name": "Data base user interface and query software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Amazon Web Services AWS software",
+      "category_element_id": "2.E.6.f",
+      "category_name": "Data base user interface and query software",
+      "hot_technology": true,
+      "in_demand": true
+    },
+    {
+      "example_name": "Apache Ant",
+      "category_element_id": "2.E.7.b",
+      "category_name": "Development environment software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Apache Cassandra",
+      "category_element_id": "2.E.6.d",
+      "category_name": "Data base management system software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Apache Groovy",
+      "category_element_id": "2.E.7.e",
+      "category_name": "Object or component oriented development software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Apache Hadoop",
+      "category_element_id": "2.E.6.d",
+      "category_name": "Data base management system software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Apache Hive",
+      "category_element_id": "2.E.6.d",
+      "category_name": "Data base management system software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Apache HTTP Server",
+      "category_element_id": "2.E.6.k",
+      "category_name": "Portal server software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Apache Kafka",
+      "category_element_id": "2.E.7.b",
+      "category_name": "Development environment software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Apache Pig",
+      "category_element_id": "2.E.6.d",
+      "category_name": "Data base management system software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Apache Solr",
+      "category_element_id": "2.E.6.d",
+      "category_name": "Data base management system software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Apache Spark",
+      "category_element_id": "2.E.6.m",
+      "category_name": "Business intelligence and data analysis software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Apache Struts",
+      "category_element_id": "2.E.7.h",
+      "category_name": "Web platform development software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Apache Tomcat",
+      "category_element_id": "2.E.7.h",
+      "category_name": "Web platform development software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Atlassian Confluence",
+      "category_element_id": "2.E.1.e",
+      "category_name": "Project management software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Atlassian JIRA",
+      "category_element_id": "2.E.5.a",
+      "category_name": "Content workflow software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Bash",
+      "category_element_id": "2.E.13.c",
+      "category_name": "Operating system software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Blackbaud The Raiser's Edge",
+      "category_element_id": "2.E.6.c",
+      "category_name": "Customer relationship management CRM software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Business Objects Data Integrator",
+      "category_element_id": "2.E.7.b",
+      "category_name": "Development environment software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "C",
+      "category_element_id": "2.E.7.b",
+      "category_name": "Development environment software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "C#",
+      "category_element_id": "2.E.7.e",
+      "category_name": "Object or component oriented development software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "C++",
+      "category_element_id": "2.E.7.e",
+      "category_name": "Object or component oriented development software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Citrix cloud computing software",
+      "category_element_id": "2.E.12.a",
+      "category_name": "Access software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Common business oriented language COBOL",
+      "category_element_id": "2.E.7.b",
+      "category_name": "Development environment software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Customer information control system CICS",
+      "category_element_id": "2.E.6.l",
+      "category_name": "Transaction server software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Data modeling software",
+      "category_element_id": "2.E.6.i",
+      "category_name": "Metadata management software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Data warehouse software",
+      "category_element_id": "2.E.6.g",
+      "category_name": "Data mining software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Database software",
+      "category_element_id": "2.E.6.f",
+      "category_name": "Data base user interface and query software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Delphi Technology",
+      "category_element_id": "2.E.2.d",
+      "category_name": "Financial analysis software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Django",
+      "category_element_id": "2.E.7.h",
+      "category_name": "Web platform development software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Drupal",
+      "category_element_id": "2.E.7.h",
+      "category_name": "Web platform development software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Dynamic hypertext markup language DHTML",
+      "category_element_id": "2.E.7.h",
+      "category_name": "Web platform development software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Eclipse IDE",
+      "category_element_id": "2.E.7.b",
+      "category_name": "Development environment software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Eko",
+      "category_element_id": "2.E.10.b",
+      "category_name": "Desktop communications software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Elasticsearch",
+      "category_element_id": "2.E.6.d",
+      "category_name": "Data base management system software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Enterprise JavaBeans",
+      "category_element_id": "2.E.7.h",
+      "category_name": "Web platform development software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Epic Systems",
+      "category_element_id": "2.E.9.i",
+      "category_name": "Medical software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "ESRI ArcGIS software",
+      "category_element_id": "2.E.8.h",
+      "category_name": "Geographic information system",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Ext JS",
+      "category_element_id": "2.E.7.h",
+      "category_name": "Web platform development software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Extensible hypertext markup language XHTML",
+      "category_element_id": "2.E.7.h",
+      "category_name": "Web platform development software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Extensible markup language XML",
+      "category_element_id": "2.E.7.c",
+      "category_name": "Enterprise application integration software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Facebook",
+      "category_element_id": "2.E.4.g",
+      "category_name": "Web page creation and editing software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "FileMaker Pro",
+      "category_element_id": "2.E.6.f",
+      "category_name": "Data base user interface and query software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Fund accounting software",
+      "category_element_id": "2.E.2.a",
+      "category_name": "Accounting software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Geographic information system GIS software",
+      "category_element_id": "2.E.8.h",
+      "category_name": "Geographic information system",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Git",
+      "category_element_id": "2.E.5.c",
+      "category_name": "File versioning software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "GitHub",
+      "category_element_id": "2.E.10.a",
+      "category_name": "Application server software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Go",
+      "category_element_id": "2.E.7.b",
+      "category_name": "Development environment software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Google Ads",
+      "category_element_id": "2.E.1.l",
+      "category_name": "Sales and marketing software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Google Analytics",
+      "category_element_id": "2.E.6.g",
+      "category_name": "Data mining software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Google Docs",
+      "category_element_id": "2.E.4.d",
+      "category_name": "Word processing software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Google Looker Analytics",
+      "category_element_id": "2.E.6.m",
+      "category_name": "Business intelligence and data analysis software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Google Sites",
+      "category_element_id": "2.E.4.g",
+      "category_name": "Web page creation and editing software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Google Slides",
+      "category_element_id": "2.E.4.f",
+      "category_name": "Presentation software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Healthcare common procedure coding system HCPCS",
+      "category_element_id": "2.E.9.i",
+      "category_name": "Medical software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Hewlett Packard HP-UX",
+      "category_element_id": "2.E.13.c",
+      "category_name": "Operating system software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Hewlett Packard LoadRunner",
+      "category_element_id": "2.E.7.f",
+      "category_name": "Program testing software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Hibernate ORM",
+      "category_element_id": "2.E.6.j",
+      "category_name": "Object oriented data base management software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Human resource management software HRMS",
+      "category_element_id": "2.E.1.c",
+      "category_name": "Human resources software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Hypertext markup language HTML",
+      "category_element_id": "2.E.7.h",
+      "category_name": "Web platform development software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "IBM Cognos Impromptu",
+      "category_element_id": "2.E.6.m",
+      "category_name": "Business intelligence and data analysis software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "IBM DB2",
+      "category_element_id": "2.E.6.f",
+      "category_name": "Data base user interface and query software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "IBM Domino",
+      "category_element_id": "2.E.12.b",
+      "category_name": "Communications server software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "IBM InfoSphere DataStage",
+      "category_element_id": "2.E.7.c",
+      "category_name": "Enterprise application integration software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "IBM Notes",
+      "category_element_id": "2.E.16.a",
+      "category_name": "Electronic mail software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "IBM Power Systems software",
+      "category_element_id": "2.E.17.a",
+      "category_name": "Enterprise system management software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "IBM SPSS Statistics",
+      "category_element_id": "2.E.9.d",
+      "category_name": "Analytical or scientific software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "IBM Unica Enterprise",
+      "category_element_id": "2.E.2.d",
+      "category_name": "Financial analysis software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "IBM WebSphere",
+      "category_element_id": "2.E.11.e",
+      "category_name": "Cloud-based management software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Informatica Data Explorer",
+      "category_element_id": "2.E.6.g",
+      "category_name": "Data mining software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Informatica software",
+      "category_element_id": "2.E.6.i",
+      "category_name": "Metadata management software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Information Builders WebFOCUS",
+      "category_element_id": "2.E.6.e",
+      "category_name": "Data base reporting software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Integrated development environment IDE software",
+      "category_element_id": "2.E.7.b",
+      "category_name": "Development environment software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "JavaScript",
+      "category_element_id": "2.E.7.h",
+      "category_name": "Web platform development software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "JavaScript Object Notation JSON",
+      "category_element_id": "2.E.7.h",
+      "category_name": "Web platform development software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Job control language JCL",
+      "category_element_id": "2.E.13.c",
+      "category_name": "Operating system software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "jQuery",
+      "category_element_id": "2.E.7.e",
+      "category_name": "Object or component oriented development software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Jupyter Notebook",
+      "category_element_id": "2.E.7.e",
+      "category_name": "Object or component oriented development software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "KornShell",
+      "category_element_id": "2.E.13.c",
+      "category_name": "Operating system software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "LexisNexis",
+      "category_element_id": "2.E.6.h",
+      "category_name": "Information retrieval or search software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Linux",
+      "category_element_id": "2.E.13.c",
+      "category_name": "Operating system software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Marketo Marketing Automation",
+      "category_element_id": "2.E.1.l",
+      "category_name": "Sales and marketing software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "McAfee",
+      "category_element_id": "2.E.14.d",
+      "category_name": "Transaction security and virus protection software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Medical condition coding software",
+      "category_element_id": "2.E.9.i",
+      "category_name": "Medical software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Medical procedure coding software",
+      "category_element_id": "2.E.9.i",
+      "category_name": "Medical software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "MEDITECH software",
+      "category_element_id": "2.E.9.i",
+      "category_name": "Medical software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Microsoft .NET Framework",
+      "category_element_id": "2.E.7.b",
+      "category_name": "Development environment software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Microsoft Access",
+      "category_element_id": "2.E.6.f",
+      "category_name": "Data base user interface and query software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Microsoft Active Server Pages ASP",
+      "category_element_id": "2.E.7.h",
+      "category_name": "Web platform development software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Microsoft ActiveX",
+      "category_element_id": "2.E.7.e",
+      "category_name": "Object or component oriented development software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Microsoft ASP.NET",
+      "category_element_id": "2.E.7.h",
+      "category_name": "Web platform development software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Microsoft Azure software",
+      "category_element_id": "2.E.7.b",
+      "category_name": "Development environment software",
+      "hot_technology": true,
+      "in_demand": true
+    },
+    {
+      "example_name": "Microsoft Dynamics",
+      "category_element_id": "2.E.2.b",
+      "category_name": "Enterprise resource planning ERP software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Microsoft Dynamics GP",
+      "category_element_id": "2.E.2.b",
+      "category_name": "Enterprise resource planning ERP software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Microsoft Excel",
+      "category_element_id": "2.E.4.i",
+      "category_name": "Spreadsheet software",
+      "hot_technology": true,
+      "in_demand": true
+    },
+    {
+      "example_name": "Microsoft Exchange",
+      "category_element_id": "2.E.16.a",
+      "category_name": "Electronic mail software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Microsoft Office software",
+      "category_element_id": "2.E.1.k",
+      "category_name": "Office suite software",
+      "hot_technology": true,
+      "in_demand": true
+    },
+    {
+      "example_name": "Microsoft Outlook",
+      "category_element_id": "2.E.16.a",
+      "category_name": "Electronic mail software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Microsoft Power Automate",
+      "category_element_id": "2.E.7.c",
+      "category_name": "Enterprise application integration software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Microsoft Power BI",
+      "category_element_id": "2.E.6.m",
+      "category_name": "Business intelligence and data analysis software",
+      "hot_technology": true,
+      "in_demand": true
+    },
+    {
+      "example_name": "Microsoft Power Platform software",
+      "category_element_id": "2.E.7.c",
+      "category_name": "Enterprise application integration software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Microsoft PowerPoint",
+      "category_element_id": "2.E.4.f",
+      "category_name": "Presentation software",
+      "hot_technology": true,
+      "in_demand": true
+    },
+    {
+      "example_name": "Microsoft PowerShell",
+      "category_element_id": "2.E.7.b",
+      "category_name": "Development environment software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Microsoft Proclarity",
+      "category_element_id": "2.E.6.e",
+      "category_name": "Data base reporting software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Microsoft Project",
+      "category_element_id": "2.E.1.e",
+      "category_name": "Project management software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Microsoft Publisher",
+      "category_element_id": "2.E.4.k",
+      "category_name": "Desktop publishing software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Microsoft SharePoint",
+      "category_element_id": "2.E.5.b",
+      "category_name": "Document management software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Microsoft SQL Server",
+      "category_element_id": "2.E.6.f",
+      "category_name": "Data base user interface and query software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Microsoft SQL Server Integration Services SSIS",
+      "category_element_id": "2.E.7.c",
+      "category_name": "Enterprise application integration software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Microsoft SQL Server Reporting Services SSRS",
+      "category_element_id": "2.E.6.e",
+      "category_name": "Data base reporting software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Microsoft Visio",
+      "category_element_id": "2.E.1.p",
+      "category_name": "Process mapping and design software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Microsoft Visual Basic",
+      "category_element_id": "2.E.7.b",
+      "category_name": "Development environment software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Microsoft Visual Basic for Applications VBA",
+      "category_element_id": "2.E.7.b",
+      "category_name": "Development environment software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Microsoft Visual Basic Scripting Edition VBScript",
+      "category_element_id": "2.E.7.b",
+      "category_name": "Development environment software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Microsoft Visual Studio",
+      "category_element_id": "2.E.7.b",
+      "category_name": "Development environment software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Microsoft Windows Server",
+      "category_element_id": "2.E.13.c",
+      "category_name": "Operating system software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Microsoft Word",
+      "category_element_id": "2.E.4.d",
+      "category_name": "Word processing software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "MicroStrategy",
+      "category_element_id": "2.E.6.m",
+      "category_name": "Business intelligence and data analysis software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Minitab",
+      "category_element_id": "2.E.9.d",
+      "category_name": "Analytical or scientific software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "MongoDB",
+      "category_element_id": "2.E.6.d",
+      "category_name": "Data base management system software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "MySQL",
+      "category_element_id": "2.E.6.d",
+      "category_name": "Data base management system software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Nagios",
+      "category_element_id": "2.E.11.a",
+      "category_name": "Network monitoring software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "NetSuite ERP",
+      "category_element_id": "2.E.2.b",
+      "category_name": "Enterprise resource planning ERP software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "NortonLifeLock cybersecurity software",
+      "category_element_id": "2.E.14.d",
+      "category_name": "Transaction security and virus protection software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "NoSQL",
+      "category_element_id": "2.E.6.d",
+      "category_name": "Data base management system software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Oracle Business Intelligence Enterprise Edition",
+      "category_element_id": "2.E.6.m",
+      "category_name": "Business intelligence and data analysis software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Oracle Cloud software",
+      "category_element_id": "2.E.11.e",
+      "category_name": "Cloud-based management software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Oracle Database",
+      "category_element_id": "2.E.6.f",
+      "category_name": "Data base user interface and query software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Oracle E-Business Suite Financials",
+      "category_element_id": "2.E.2.d",
+      "category_name": "Financial analysis software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Oracle Eloqua",
+      "category_element_id": "2.E.6.c",
+      "category_name": "Customer relationship management CRM software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Oracle Essbase",
+      "category_element_id": "2.E.6.f",
+      "category_name": "Data base user interface and query software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Oracle Fusion Applications",
+      "category_element_id": "2.E.2.b",
+      "category_name": "Enterprise resource planning ERP software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Oracle Hyperion",
+      "category_element_id": "2.E.2.b",
+      "category_name": "Enterprise resource planning ERP software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Oracle Java",
+      "category_element_id": "2.E.7.e",
+      "category_name": "Object or component oriented development software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Oracle JavaServer Pages JSP",
+      "category_element_id": "2.E.7.h",
+      "category_name": "Web platform development software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Oracle JD Edwards EnterpriseOne",
+      "category_element_id": "2.E.2.b",
+      "category_name": "Enterprise resource planning ERP software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Oracle JDBC",
+      "category_element_id": "2.E.6.f",
+      "category_name": "Data base user interface and query software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Oracle PeopleSoft",
+      "category_element_id": "2.E.2.b",
+      "category_name": "Enterprise resource planning ERP software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Oracle PeopleSoft Financials",
+      "category_element_id": "2.E.2.b",
+      "category_name": "Enterprise resource planning ERP software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Oracle PL/SQL",
+      "category_element_id": "2.E.6.d",
+      "category_name": "Data base management system software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Oracle Primavera Enterprise Project Portfolio Management",
+      "category_element_id": "2.E.1.e",
+      "category_name": "Project management software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Oracle Siebel Marketing Resource Management",
+      "category_element_id": "2.E.6.c",
+      "category_name": "Customer relationship management CRM software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Oracle Solaris",
+      "category_element_id": "2.E.13.c",
+      "category_name": "Operating system software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Oracle SQL Developer",
+      "category_element_id": "2.E.7.b",
+      "category_name": "Development environment software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Oracle Taleo",
+      "category_element_id": "2.E.1.c",
+      "category_name": "Human resources software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Oracle WebLogic Server",
+      "category_element_id": "2.E.10.a",
+      "category_name": "Application server software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Panorama NovaView",
+      "category_element_id": "2.E.6.e",
+      "category_name": "Data base reporting software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Perl",
+      "category_element_id": "2.E.7.e",
+      "category_name": "Object or component oriented development software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "PHP",
+      "category_element_id": "2.E.7.h",
+      "category_name": "Web platform development software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "PostgreSQL",
+      "category_element_id": "2.E.6.j",
+      "category_name": "Object oriented data base management software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "PTC Creo Parametric",
+      "category_element_id": "2.E.9.c",
+      "category_name": "Computer aided design CAD software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Python",
+      "category_element_id": "2.E.7.e",
+      "category_name": "Object or component oriented development software",
+      "hot_technology": true,
+      "in_demand": true
+    },
+    {
+      "example_name": "Qlik Tech QlikView",
+      "category_element_id": "2.E.6.m",
+      "category_name": "Business intelligence and data analysis software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Quest Erwin Data Modeler",
+      "category_element_id": "2.E.6.i",
+      "category_name": "Metadata management software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "R",
+      "category_element_id": "2.E.7.e",
+      "category_name": "Object or component oriented development software",
+      "hot_technology": true,
+      "in_demand": true
+    },
+    {
+      "example_name": "Red Hat Enterprise Linux",
+      "category_element_id": "2.E.13.c",
+      "category_name": "Operating system software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Red Hat WildFly",
+      "category_element_id": "2.E.10.a",
+      "category_name": "Application server software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Relational database management software",
+      "category_element_id": "2.E.6.d",
+      "category_name": "Data base management system software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Reporting software",
+      "category_element_id": "2.E.6.e",
+      "category_name": "Data base reporting software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Rogue Wave Software IMSL Numerical Libraries",
+      "category_element_id": "2.E.9.d",
+      "category_name": "Analytical or scientific software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Ruby",
+      "category_element_id": "2.E.7.b",
+      "category_name": "Development environment software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Ruby on Rails",
+      "category_element_id": "2.E.7.h",
+      "category_name": "Web platform development software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Salesforce software",
+      "category_element_id": "2.E.6.c",
+      "category_name": "Customer relationship management CRM software",
+      "hot_technology": true,
+      "in_demand": true
+    },
+    {
+      "example_name": "Salesforce Visualforce",
+      "category_element_id": "2.E.7.d",
+      "category_name": "Graphical user interface development software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "SAP Business Objects",
+      "category_element_id": "2.E.2.b",
+      "category_name": "Enterprise resource planning ERP software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "SAP BusinessObjects Data Integrator",
+      "category_element_id": "2.E.7.c",
+      "category_name": "Enterprise application integration software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "SAP Crystal Reports",
+      "category_element_id": "2.E.6.e",
+      "category_name": "Data base reporting software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "SAP ERP",
+      "category_element_id": "2.E.2.b",
+      "category_name": "Enterprise resource planning ERP software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "SAP NetWeaver BW",
+      "category_element_id": "2.E.6.g",
+      "category_name": "Data mining software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "SAP software",
+      "category_element_id": "2.E.2.b",
+      "category_name": "Enterprise resource planning ERP software",
+      "hot_technology": true,
+      "in_demand": true
+    },
+    {
+      "example_name": "SAS",
+      "category_element_id": "2.E.9.d",
+      "category_name": "Analytical or scientific software",
+      "hot_technology": true,
+      "in_demand": true
+    },
+    {
+      "example_name": "Scala",
+      "category_element_id": "2.E.7.e",
+      "category_name": "Object or component oriented development software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Shell script",
+      "category_element_id": "2.E.13.c",
+      "category_name": "Operating system software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "SiSense Prism",
+      "category_element_id": "2.E.6.e",
+      "category_name": "Data base reporting software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Skype",
+      "category_element_id": "2.E.10.b",
+      "category_name": "Desktop communications software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Snowflake",
+      "category_element_id": "2.E.6.g",
+      "category_name": "Data mining software",
+      "hot_technology": true,
+      "in_demand": true
+    },
+    {
+      "example_name": "Splunk Enterprise",
+      "category_element_id": "2.E.11.e",
+      "category_name": "Cloud-based management software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "StataCorp Stata",
+      "category_element_id": "2.E.9.d",
+      "category_name": "Analytical or scientific software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Structured query language SQL",
+      "category_element_id": "2.E.6.f",
+      "category_name": "Data base user interface and query software",
+      "hot_technology": true,
+      "in_demand": true
+    },
+    {
+      "example_name": "Swift",
+      "category_element_id": "2.E.7.e",
+      "category_name": "Object or component oriented development software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Tableau",
+      "category_element_id": "2.E.6.m",
+      "category_name": "Business intelligence and data analysis software",
+      "hot_technology": true,
+      "in_demand": true
+    },
+    {
+      "example_name": "Tax software",
+      "category_element_id": "2.E.2.a",
+      "category_name": "Accounting software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Teradata Database",
+      "category_element_id": "2.E.6.d",
+      "category_name": "Data base management system software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "The MathWorks MATLAB",
+      "category_element_id": "2.E.9.d",
+      "category_name": "Analytical or scientific software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Transact-SQL",
+      "category_element_id": "2.E.6.f",
+      "category_name": "Data base user interface and query software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Ubuntu",
+      "category_element_id": "2.E.13.c",
+      "category_name": "Operating system software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Unified modeling language UML",
+      "category_element_id": "2.E.7.g",
+      "category_name": "Requirements analysis and system architecture software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "UNIX",
+      "category_element_id": "2.E.13.c",
+      "category_name": "Operating system software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "UNIX Shell",
+      "category_element_id": "2.E.13.c",
+      "category_name": "Operating system software",
+      "hot_technology": true,
+      "in_demand": false
+    },
+    {
+      "example_name": "Veritas NetBackup",
+      "category_element_id": "2.E.15.f",
+      "category_name": "Backup or archival software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Virtual private networking VPN software",
+      "category_element_id": "2.E.14.c",
+      "category_name": "Network security and virtual private network VPN equipment software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "Wireshark",
+      "category_element_id": "2.E.11.a",
+      "category_name": "Network monitoring software",
+      "hot_technology": false,
+      "in_demand": false
+    },
+    {
+      "example_name": "YouTube",
+      "category_element_id": "2.E.4.c",
+      "category_name": "Video creation and editing software",
+      "hot_technology": false,
+      "in_demand": false
+    }
+  ]
+}

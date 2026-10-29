@@ -36,7 +36,7 @@ beforeAll(async () => {
 
   const pa = await a.client
     .from("career_profiles")
-    .insert({ current_stage: "student", target_career_id: "13-2051.00", source: "manual" })
+    .insert({ current_stage: "student", target_career_id: "15-2051.01", source: "manual" })
     .select("id")
     .single();
   expect(pa.error).toBeNull();
@@ -147,7 +147,7 @@ describe("cross-user isolation (User B vs User A)", () => {
       .eq("id", aProfileId)
       .single();
     expect(skill.data!.claimed_level).toBe(80);
-    expect(profile.data!.target_career_id).toBe("13-2051.00");
+    expect(profile.data!.target_career_id).toBe("15-2051.01");
   });
 
   it("B cannot insert a skill onto A's profile", async () => {
@@ -297,21 +297,21 @@ describe("schema CHECK constraints (via service role, bypassing RLS)", () => {
     expect(score.error?.message).toMatch(/check constraint/i);
   });
 
-  it("rejects any target_career_id other than Financial Analyst (v1)", async () => {
+  it("rejects any target_career_id other than Business Intelligence Analysts (v1)", async () => {
     const viaClient = await b.client
       .from("career_profiles")
-      .update({ target_career_id: "15-1252.00" })
+      .update({ target_career_id: "13-2051.00" })
       .eq("id", bProfileId)
       .select();
     const viaAdmin = await admin
       .from("career_profiles")
-      .update({ target_career_id: "15-1252.00" })
+      .update({ target_career_id: "13-2051.00" })
       .eq("id", bProfileId);
     expect(viaClient.error?.message).toMatch(/career_profiles_target_career_v1/);
     expect(viaAdmin.error?.message).toMatch(/career_profiles_target_career_v1/);
     const ok = await b.client
       .from("career_profiles")
-      .update({ target_career_id: "13-2051.00" })
+      .update({ target_career_id: "15-2051.01" })
       .eq("id", bProfileId)
       .select();
     expect(ok.error).toBeNull();
